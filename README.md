@@ -22,4 +22,4 @@ The project is structured as follows:
 - Create Virtual Environment: ```python3 -m venv env```
 - Install requirements.txt: ```pip3 install -r requirements.txt```
 - Run the code: ```python3 src/main.py```
-- Run testcases: ```python3 test_stackoverflow_data_processor.py```
+- Run testcases: ```python3 tests/test_stackoverflow_data_processor.py```
