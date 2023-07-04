@@ -19,6 +19,7 @@ def main():
         # Write the Stack Overflow data into a lake using Spark
         processor.write_into_lake(data, destination_path)
         print("Data has been successfully written to the lake.")
+        return top_tags
     else:
         print("Failed to fetch Stack Overflow data. Please check your network connection or API availability.")
 
